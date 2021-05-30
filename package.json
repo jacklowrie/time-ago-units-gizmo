@@ -1,0 +1,47 @@
+{
+  "name": "wp-gizmo",
+  "version": "1.0.0",
+  "description": "A starter plugin and build process for making modern WordPress plugins",
+  "main": "wp-gizmo.php",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklowrie/wp-gizmo.git"
+  },
+  "keywords": [
+    "gizmo",
+    "wordpress",
+    "plugin"
+  ],
+  "author": "Jack Lowrie",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jacklowrie/wp-gizmo/issues"
+  },
+  "homepage": "https://github.com/jacklowrie/wp-gizmo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/register": "^7.13.16",
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-string-replace": "^1.1.2",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "vinyl-fs-fake": "^1.1.1",
+    "yargs-parser": ">=20.2.7"
+  },
+  "dependencies": {
+    "lazypipe": "^1.0.2"
+  }
+}
