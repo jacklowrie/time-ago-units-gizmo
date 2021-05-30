@@ -2,9 +2,9 @@
 Contributors: jacklowrie
 Tags: date, modify date, modify date units, time, modify time, modify time units, published, modify published, time ago, ago, time ago units
 Requires at least: 3.0.1
-Tested up to: 4.9
-Requires PHP: 5.6
-Stable tag:
+Tested up to: 5.7
+Requires PHP: 7.0
+Stable tag: 2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,10 +26,17 @@ was published. Dates will now appear as "1 minute ago," "2 weeks ago," etc.
 
 == Changelog ==
 
+= 2.0 =
+* Update plugin to use WP-Gizmo boilerplate/dev env
+* Updates code to use php7 features
+
 = 1.0 =
 * Launch ready version
 
 == Upgrade Notice ==
+
+= 2.0 =
+Updates to use php7 features. all future work will require >= php7, so if this pluginis useful to you and you aren't on php7, this is a good time to start upgrading your site.
 
 = 1.0 =
 Launch-ready version
