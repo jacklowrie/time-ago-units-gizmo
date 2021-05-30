@@ -1,6 +1,6 @@
 {
   "plugin":{
-    "slug": "new-plugin",
-    "name": "New Plugin"
+    "slug": "time-ago-units",
+    "name": "Time Ago Units"
   }
 }
