@@ -8,12 +8,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-class GizmoSettings {
+class Settings {
 
 	public function __construct() {
 		// add Time Ago Units Settings submenu
-		add_action( 'admin_menu', [ $this, 'time_ago_units_settings_menu' ] ) );
-		add_action( 'admin_init', [ $this, 'time_ago_units_register_settings' ] ) );
+		add_action( 'admin_menu', [ $this, 'time_ago_units_settings_menu' ] );
+		add_action( 'admin_init', [ $this, 'time_ago_units_register_settings' ] );
 
 	}
 

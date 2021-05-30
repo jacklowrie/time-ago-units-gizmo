@@ -6,6 +6,8 @@ declare( strict_types = 1 );
 
 namespace WP_Gizmo\Gizmo;
 
+use WP_Gizmo\Gizmo\Settings;
+
 /**
  * Main class for the plugin.
  */
@@ -13,7 +15,7 @@ class Gizmo {
 	public $settings;
 
 	function __construct() {
-		$this->settings = new GizmoSettings();
+		$this->settings = new Settings();
 	}
 
 	/**

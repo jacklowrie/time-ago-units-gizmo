@@ -7,7 +7,7 @@
  * @license           GPL-3.0-or-later
  *
  * @wordpress-plugin
- * Plugin Name:       Time Ago Units
+ * Plugin Name:       WP-Gizmo
  * Plugin URI:        https://wordpress.org/plugins/time-ago-units/
  * Description:       Simple WordPress Plugin changes the date format on posts and pages.
  * Version:           1.0.0
@@ -15,7 +15,7 @@
  * Requires PHP:      7.0
  * Author:            4th Wall Websites
  * Author URI:        https://4thwall.io
- * Text Domain:       time-ago-units
+ * Text Domain:       wp-gizmo
  * License:           GPL v2
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  *
@@ -37,5 +37,5 @@ declare( strict_types = 1 );
 require_once( __DIR__ . '/autoloader.php' );
 Gizmo_Autoloader::register();
 
-$gizmo = new Gizmo();
+$gizmo = new WP_Gizmo\Gizmo\Gizmo();
 $gizmo->init();

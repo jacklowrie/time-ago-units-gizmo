@@ -2,5 +2,9 @@
   "plugin":{
     "slug": "time-ago-units",
     "name": "Time Ago Units"
-  }
+  },
+  "filesToCopy": [
+    "readme.txt",
+    "license"
+  ]
 }
